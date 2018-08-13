@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philipp Cuba | Frontend Web Developer</title>
+	<link rel="icon" href="Pictures/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+
+<!--======-->
+<!--HEADER-->
+<!--======-->
+
+    <header>
+      <div class="header-line"></div>
+      <nav>
+        <a href="index.html"><img class="header-logo" src="Pictures/meinlogo.png" alt="Logo"></a>
+        <ul class="header-liste">
+          <li><a class="header-navigation" href="index.html">Home</a></li>
+          <li><a class="header-navigation" href="aboutme.html">About Me</a></li>
+          <li><a class="header-navigation_location" href="contact.html">Contact</a></li>
+        </ul>
+        <img class="header-menu_burger" src="Pictures/menu.png" alt="menu">
+        <div class="header-menu_menu">
+          <img class="header-menu_x" src="Pictures/close-button.png" alt="close">
+          <ul class="header-menu_liste">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+<!--===========-->
+<!--7TH-PASSAGE-->
+<!--===========-->
+
+    <main>
+      <h1 class="main-7_heading">Contact</h1>
+      <div class="main-7">
+        <form method="POST" action="mail.php" class="main-7_container">
+          <label for="name">Name</label>
+          <span class="js-name_error"></span>
+          <input name="name" class="main-7_input" type="text" id="name">
+
+          <label for="email">E-Mail</label>
+          <span class="js-email_error"></span>
+          <input name="email" class="main-7_input" type="text" id="email">
+
+          <label for="message">Message</label>
+          <span class="js-message_error"></span>
+          <textarea name="message" class="main-7_input" id="message"></textarea>
+
+          <input class="main-7_button" value="send" name="send" type="submit">
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109410.71775314894!2d16.339835542751874!3d48.274091098503916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0599d538dd53%3A0x153ff876572957eb!2sDoktor-Nekowitsch-Stra%C3%9Fe%2C+1210+Wien!5e0!3m2!1sen!2sat!4v1521553544978" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </main>
+
+<!--======-->
+<!--FOOTER-->
+<!--======-->
+
+    <footer>
+      <p class="footer_instagram"><img src="Pictures/instagram.png" alt="instagram">Instagram:<a href="https://www.instagram.com/cubaphilipp/" target="_blank">&nbsp;@cubaphilipp</a></p>
+      <p class="footer_legal"><a href="legals.html">Legals </a>| Copyright &copy; 2018 Philipp Cuba</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="JavaScript/formvalidierung.js"></script>
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
